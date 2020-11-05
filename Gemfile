@@ -32,6 +32,7 @@ gem 'bulma-rails', '~> 0.9.0'
 gem 'simple_form', '~> 5.0', '>= 5.0.3'
 gem 'gravatar_image_tag', '~> 1.2'
 gem 'devise', '~> 4.7', '>= 4.7.3'
+gem 'wdm'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -42,8 +43,10 @@ group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
   gem 'web-console', '>= 3.3.0'
   gem 'better_errors', '~> 2.8', '>= 2.8.3'
-  gem 'guard', '~> 2.16', '>= 2.16.2'
-  gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require: false
+  gem 'guard'
+  gem 'guard-livereload', require: false
+  gem 'guard-bundler'
+ 
 end
 
 group :test do
