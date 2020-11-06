@@ -117,6 +117,7 @@ GEM
       guard (~> 2.8)
       guard-compat (~> 1.0)
       multi_json (~> 1.8)
+    hirb (0.7.3)
     http_parser.rb (0.6.0)
     i18n (1.8.5)
       concurrent-ruby (~> 1.0)
@@ -266,6 +267,7 @@ DEPENDENCIES
   guard
   guard-bundler
   guard-livereload
+  hirb
   jbuilder (~> 2.7)
   puma (~> 4.1)
   rails (~> 6.0.3, >= 6.0.3.4)

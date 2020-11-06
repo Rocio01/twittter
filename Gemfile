@@ -33,6 +33,7 @@ gem 'simple_form', '~> 5.0', '>= 5.0.3'
 gem 'gravatar_image_tag', '~> 1.2'
 gem 'devise', '~> 4.7', '>= 4.7.3'
 gem 'wdm'
+gem 'hirb'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
