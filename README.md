@@ -1,6 +1,6 @@
 # [Twitter clone]
 
--  I built a light weight version of Twitter using Ruby on Rails
+ I built a light weight version of Twitter using Ruby on Rails
 
 - Models, Views, and Controllers (MVC)
 - Data Structures & Relationships
