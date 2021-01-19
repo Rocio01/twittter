@@ -31,6 +31,7 @@
 ## Built With
 
 - Ruby on Rails
+- Ruby
 - Rubocop
 - Stylelint
 
